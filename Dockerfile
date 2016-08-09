@@ -30,4 +30,4 @@ WORKDIR /app
 RUN composer install
 
 EXPOSE 9000
-CMD ["php", "app/console", "server:run", "0.0.0.0:9000"]
+CMD ["php", "bin/console", "server:run", "0.0.0.0:9000"]
